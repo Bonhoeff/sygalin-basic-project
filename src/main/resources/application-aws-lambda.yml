@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+
+application:
+  name: BASIC
+  database: mySQL
+  username: `input username`
+  password: `input password`
+  url: `input jdbc database url`
+  dbname: dietrich
+  JWT-KEY: `input JWT KEY`

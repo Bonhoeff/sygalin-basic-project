@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+
+application:
+  name: BASIC
+  database: mySQL
+  username: ${USER_NAME_DB}
+  password: ${USER_PWD_DB}
+  url: ${DATABASE_URL}
+  dbname: dietrich
+  JWT-KEY: ${JWT_KEY_API}
+  environment: DEV
