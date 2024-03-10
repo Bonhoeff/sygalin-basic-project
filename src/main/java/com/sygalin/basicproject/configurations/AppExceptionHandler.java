@@ -1,6 +1,6 @@
-package com.sygalin.basicproject.configurations;
+package {{.PackageName}}.configurations;
 
-import com.sygalin.basicproject.globalmodels.ResponseMessage;
+import {{.PackageName}}.globalmodels.ResponseMessage;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.AllArgsConstructor;

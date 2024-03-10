@@ -1,4 +1,4 @@
-package com.sygalin.basicproject.configurations;
+package {{.PackageName}}.configurations;
 
 import feign.Feign;
 import feign.gson.GsonDecoder;

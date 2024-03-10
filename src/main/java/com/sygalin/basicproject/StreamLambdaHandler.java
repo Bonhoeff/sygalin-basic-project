@@ -1,4 +1,4 @@
-package com.sygalin.basicproject;
+package {{.PackageName}};
 
 
 /*import com.amazonaws.serverless.exceptions.ContainerInitializationException;

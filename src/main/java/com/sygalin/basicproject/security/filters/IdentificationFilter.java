@@ -1,4 +1,4 @@
-package com.sygalin.basicproject.security.filters;
+package {{.PackageName}}.security.filters;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

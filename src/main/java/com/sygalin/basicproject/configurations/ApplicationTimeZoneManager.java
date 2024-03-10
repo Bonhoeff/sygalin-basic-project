@@ -1,4 +1,4 @@
-package com.sygalin.basicproject.configurations;
+package {{.PackageName}}.configurations;
 
 import java.time.LocalDateTime;
 import java.time.OffsetDateTime;

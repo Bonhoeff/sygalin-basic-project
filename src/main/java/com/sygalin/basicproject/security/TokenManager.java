@@ -1,6 +1,6 @@
-package com.sygalin.basicproject.security;
+package {{.PackageName}}.security;
 
-import com.sygalin.basicproject.configurations.AppException;
+import {{.PackageName}}.configurations.AppException;
 
 import java.util.ArrayList;
 import java.util.Map;

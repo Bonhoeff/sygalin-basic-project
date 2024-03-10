@@ -1,4 +1,4 @@
-package com.sygalin.basicproject.globalmodels;
+package {{.PackageName}}.globalmodels;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

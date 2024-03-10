@@ -1,4 +1,4 @@
-package com.sygalin.basicproject.configurations;
+package {{.PackageName}}.configurations;
 
 import lombok.Data;
 import lombok.Getter;

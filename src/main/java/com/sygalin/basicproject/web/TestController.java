@@ -1,7 +1,7 @@
-package com.sygalin.basicproject.web;
+package {{.PackageName}}.web;
 
-import com.sygalin.basicproject.configurations.AppException;
-import com.sygalin.basicproject.security.TokenManager;
+import {{.PackageName}}.configurations.AppException;
+import {{.PackageName}}.security.TokenManager;
 import lombok.AllArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

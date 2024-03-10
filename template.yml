@@ -9,7 +9,7 @@ Resources:
   AwsLambdaFunction:
     Type: AWS::Serverless::Function
     Properties:
-      Handler: com.sygalin.basicproject.StreamLambdaHandler::handleRequest
+      Handler: {{.PackageName}}.StreamLambdaHandler::handleRequest
       Runtime: java17
       CodeUri: .
       MemorySize: 512

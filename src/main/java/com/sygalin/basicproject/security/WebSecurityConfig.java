@@ -1,6 +1,6 @@
-package com.sygalin.basicproject.security;
+package {{.PackageName}}.security;
 
-import com.sygalin.basicproject.security.filters.IdentificationFilter;
+import {{.PackageName}}.security.filters.IdentificationFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;

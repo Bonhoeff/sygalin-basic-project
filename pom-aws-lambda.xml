@@ -4,11 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.sygalin</groupId>
-    <artifactId>basic-project</artifactId>
-    <version>0.1</version>
-    <name>basic-project</name>
-    <description>basic-project</description>
+    <groupId>{{.GroupId}}</groupId>
+    <artifactId>{{.ArtifactId}}</artifactId>
+    <version>{{.ProjectVersion}}</version>
+    <name>{{.ProjectName}}</name>
+    <description>{{.ProjectDescription}}</description>
     <packaging>jar</packaging>
     <parent>
         <groupId>org.springframework.boot</groupId>

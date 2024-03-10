@@ -1,10 +1,10 @@
-package com.sygalin.basicproject;
+package {{.PackageName}};
 
-import com.sygalin.basicproject.configurations.ApplicationTimeZoneManager;
-import com.sygalin.basicproject.configurations.HttpClient;
-import com.sygalin.basicproject.feignclients.ExampleFeignClient;
-import com.sygalin.basicproject.security.TokenManager;
-import com.sygalin.basicproject.security.TokenManagerService;
+import {{.PackageName}}.configurations.ApplicationTimeZoneManager;
+import {{.PackageName}}.configurations.HttpClient;
+import {{.PackageName}}.feignclients.ExampleFeignClient;
+import {{.PackageName}}.security.TokenManager;
+import {{.PackageName}}.security.TokenManagerService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -16,11 +16,11 @@ import java.util.*;
 
 @SpringBootApplication
 @EnableFeignClients
-public class BasicProjectApplication {
+public class {{.ClassName}} {
 
 	public static void main(String[] args) {
 		TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
-		SpringApplication.run(BasicProjectApplication.class, args);
+		SpringApplication.run({{.ClassName}}.class, args);
 	}
 
 	@Bean

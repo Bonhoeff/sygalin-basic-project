@@ -1,4 +1,4 @@
-package com.sygalin.basicproject.feignclients;
+package {{.PackageName}}.feignclients;
 
 import feign.RequestLine;
 

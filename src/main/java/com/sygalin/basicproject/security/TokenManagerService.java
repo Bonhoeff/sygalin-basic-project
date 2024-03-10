@@ -1,4 +1,4 @@
-package com.sygalin.basicproject.security;
+package {{.PackageName}}.security;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTCreator;
@@ -6,8 +6,8 @@ import com.auth0.jwt.JWTVerifier;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.exceptions.TokenExpiredException;
 import com.auth0.jwt.interfaces.DecodedJWT;
-import com.sygalin.basicproject.configurations.AppException;
-import com.sygalin.basicproject.configurations.Constants;
+import {{.PackageName}}.configurations.AppException;
+import {{.PackageName}}.configurations.Constants;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.env.Environment;
