@@ -8,10 +8,10 @@ import java.util.ArrayList;
 import java.util.Objects;
 
 @AllArgsConstructor @NoArgsConstructor @Data
-public class ResponseMessage {
+public class ResponseMessage<T> {
     private int status;
     private int code;
     private String error;
     private String message;
-    private ArrayList<? extends Objects> data;
+    private ArrayList<T> data=new ArrayList<>();
 }
